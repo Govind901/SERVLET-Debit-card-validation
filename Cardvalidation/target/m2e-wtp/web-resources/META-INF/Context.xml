@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+    name="jdbc/cardvalidation"
+    auth="stockportfolio"
+    type="javax.sql.DataSource"
+    maxIdle="30"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/cardvalidation"
+    username="root"
+    password="root"/>
+</Context>

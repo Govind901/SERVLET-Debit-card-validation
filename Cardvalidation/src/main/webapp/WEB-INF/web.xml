@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+  	<listener-class>Connections.Listner</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>CardVal</servlet-name>
+  	<display-name>CardVal</display-name>
+  	<description></description>
+  	<servlet-class>Servlet.CardVal</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Otpval</servlet-name>
+  	<display-name>Otpval</display-name>
+  	<description></description>
+  	<servlet-class>Servlet.Otpval</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CardVal</servlet-name>
+  	<url-pattern>/CardVal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Otpval</servlet-name>
+  	<url-pattern>/Otpval</url-pattern>
+  </servlet-mapping>
+</web-app>
